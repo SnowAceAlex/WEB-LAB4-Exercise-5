@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sigmar&display=swap");
+
+body {
+  font-family: "Sigmar", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f1e9;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bfd195;
+  color: #28803b;
+  padding: 15px;
+}
+
+.information-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+  height: 120px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #28803b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #bfd195;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  display: inline-block;
+  background-color: #28803b;
+  color: #bfd195;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #1e6a2e;
+}
+
+.product-logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #1e6a2e;
+}
+
+a:hover {
+  color: #333;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-item {
+  background-color: #bfd195;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.logo-skills {
+  height: 280px;
+  margin-top: 20px;
+}
+
+.contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #bfd195;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-contact {
+  height: 280px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #bfd195;
+  color: #28803b;
+  margin-top: auto;
+  width: 100%;
+}
